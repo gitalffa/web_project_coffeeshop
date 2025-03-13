@@ -16,7 +16,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 135px;
+  height: 99px;
 }
 
 .nav__logo {
@@ -38,7 +38,7 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 20px;
 }
@@ -54,28 +54,43 @@
 .header__title {
   margin: 0;
   margin-top: 183px;
+  margin-left: 80px;
   max-width: 709px;
   height: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
+
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
 }
 .header__span-accent {
   color: #2f80ed;
+  display: block;
+}
+.header__span {
+  display: block;
+  box-sizing: border-box;
+
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
 }
 .header__description {
-  margin: 0;
-  padding-top: 28px;
+  margin-left: 80px;
+  margin-top: 100px;
   max-width: 683px;
   height: 80px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+
+  font-size: 20px;
+  line-height: 30px;
 }
 .header__image {
   height: 568px;
   width: 646px;
-  margin-top: 124px;
+  margin-top: 94px;
   margin-right: 5px;
 }
 .header__horarios {
@@ -83,10 +98,14 @@
   list-style-type: none;
   margin-bottom: 40px;
 }
-.header__items {
+.header__items-horarios {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 .header__footer {
   display: flex;
@@ -100,4 +119,9 @@
   margin: 0;
   align-self: flex-end;
   margin-bottom: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }

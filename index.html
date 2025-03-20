@@ -130,7 +130,68 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Nombre *</label>
+              <input
+                type="text"
+                class="form__item form__item_el_name"
+                placeholder="Nombre"
+                id="name"
+              />
+              <label for="num-comensales" class="form__label"
+                >Numero de comensales *</label
+              >
+              <input
+                type="number"
+                class="form__item form__item_el_num-comensales"
+                id="num-comensales"
+                min="1"
+                max="8"
+                placeholder="1 - 8"
+              />
+              <label for="fecha-hora" class="form__label">fecha y hora *</label>
+              <input
+                type="datetime-local"
+                class="form__item form__item_el_fecha-hora"
+                id="fecha-hora"
+              />
+              <label for="form__email" class="form__label"
+                >Correo electrónico *</label
+              >
+              <input
+                type="email"
+                class="form__item form__item_el_email"
+                id="form__email"
+                placeholder="email@ejemplo.com"
+              />
+              <label for="form__email" class="form__label"
+                >Correo electrónico *</label
+              >
+              <input
+                type="email"
+                class="form__item form__item_el_email"
+                id="form__email"
+                placeholder="email@ejemplo.com"
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Enviar</button>
+            <div class="form__checkbox-container">
+              <input
+                type="checkbox"
+                id="form__checkbox"
+                class="form__checkbox"
+              />
+              <label for="form__checkbox" class="form__pseudo-checkbox"></label>
+              <label for="form__checkbox" class="form__label"
+                >Acepto términos y condiciones</label
+              >
+            </div>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>

@@ -1,0 +1,60 @@
+.footer {
+  background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 80px 108px 80px;
+}
+.footer__circle {
+  border-radius: 50%;
+  background-color: #2f80ed;
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  z-index: 1;
+}
+.footer__logo {
+  position: relative;
+  z-index: 2;
+}
+.footer__social-heading {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__social {
+  color: white;
+}
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+.footer__list-item:first-child {
+  margin-bottom: 16px;
+}
+.copyright {
+  margin-bottom: 60px;
+  color: white;
+  margin-left: 80px;
+  font-size: 16px;
+  line-height: 20px;
+}

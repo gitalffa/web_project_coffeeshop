@@ -51,7 +51,7 @@
 .footer__list-item:first-child {
   margin-bottom: 16px;
 }
-.copyright {
+.footer__copyright {
   margin-bottom: 60px;
   color: white;
   margin-left: 80px;
